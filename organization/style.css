@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body.pop-up-activated {
+ overflow: hidden;
+}
+
+body {
+    margin: 1rem;
+    margin-bottom:4rem;
+    font-family: "arial";
+    font-weight: 400;
+    font-style: normal;
+    color: #193045;
+  } 
+  
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+
+
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "arial";
+    padding: 15px;
+    font-size: 36px;
+}
+
+.top-banner {
+  width: 100%;
+
+  margin: 0 auto;
+  background-color: #C9BCA8;
+  color: #193045;
+  padding: 10px;
+  text-align: right;
+}
+
+p{
+  margin-top: 10px;
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #193045;
+  text-decoration: none;
+} 
+
+
+.text-intro {
+  max-width: 1400px;
+
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.intro{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: "arial";
+  font-size: 60px;
+  max-width:1800px;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px; 
+}
+
+
+
+.image-wrapper img {
+  margin-left: 20px;
+  max-width: 300px;
+  height: auto;
+
+}
+
+
+
+
+.organization-name, .organization-borough{
+  font-size: 40px;
+}
+
+
+
+
+.about-us{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #F5F5F0;
+}
+
+
+.header2 {
+  margin:40px;
+}
+

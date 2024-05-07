@@ -1,0 +1,178 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body.pop-up-activated {
+ overflow: hidden;
+}
+
+body {
+    margin: 1rem;
+    margin-bottom:4rem;
+    font-family: "arial";
+    font-weight: 400;
+    font-style: normal;
+    color: #193045;
+  } 
+  
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+
+
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "arial";
+    padding: 15px;
+    font-size: 36px;
+}
+
+.top-banner {
+  width: 100%;
+
+  margin: 0 auto;
+  background-color: #C9BCA8;
+  color: #193045;
+  padding: 10px;
+  text-align: right;
+}
+
+p{
+  margin-top: 10px;
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #193045;
+  text-decoration: none;
+} 
+
+
+
+.text-intro {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 15px;
+}
+
+.intro{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: "arial";
+  font-size: 60px;
+  max-width:1800px;
+}
+
+.text-intro .header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px; 
+}
+
+.header h1{
+  max-width: 1400px;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.image-wrapper img {
+  margin-left: 20px;
+  max-width: 300px;
+  height: auto;
+
+}
+
+
+
+/* table */
+.data-page{
+   background-color: #F5F5F0;
+}
+.data-table{
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.table-header{
+  font-size: 20px;
+  text-align: center;
+  /* margin: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.borough-filters{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.borough-filters button {
+  background-color: #193045;
+  color: #F5F5F0;
+  padding: 10px 10px;
+  border: none;
+  font-size: 15px;
+  border-radius: 7px; 
+  margin-right: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.organization-name, .organization-borough{
+  font-size: 20px;
+}
+
+.table-body{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  /* border: 1px solid #ccc;
+  border-radius: 5px; */
+}
+
+
+.about-us{
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.title-about-us{
+  font-family: "arial";
+  padding: 15px;
+  font-size: 36px;
+  background-color: #F5F5F0;
+}
+
+.header2 {
+  margin-left: 15px; 
+}
+
