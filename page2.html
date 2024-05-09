@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="images/people.png" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+    <title>Community Based Organizations</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style2.css" />
+    <style>
+      a {
+          text-decoration: none; 
+          color: inherit;
+      }
+    </style>
+
+    <!-- import the webpage's javascript file -->
+    <script src="script2.js" defer></script>
+  </head>
+  <body>
+    <section class="top-banner">
+        <div class="title">
+            <!-- Link back to index page -->
+            <a href="index.html"> NYC Community Based Organizations </a>
+        </div>
+        <nav>
+            <ul>
+              <li><a href="index.html#organization-list-section">Organization List</a></li>
+              <li><a href="index.html#about-us">About Us</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="back-button">
+      <a href="#" onclick="goBack()"><button class="goback">Back</button></a>
+    </div>
+
+    <div id="organization_name"></div>
+
+    <div id="organization-details-container">
+        <nav id="organization-list-container" class="organization-list"></nav>
+        <section class="about-us">
+            <div class="header2">
+                <!-- Organization details will be populated here -->
+                <div id="organization-details"></div>
+            </div> 
+        </section>
+    </div>
+</body>
+</html>

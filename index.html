@@ -26,8 +26,8 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Organization List</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="#organization-list-section">Organization List</a></li>
+        <li><a href="#about-us">About Us</a></li>
       </ul>
     </nav>
   </section>
@@ -47,28 +47,30 @@
   </section>
 
 
-<div class = data-page>
-    <section class = "data-table">
-    <div class="table-header">
-      <h2>Organization List</h2>
-      <div class="borough-filters">
-        <button>MANHATTAN</button>
-        <button>BROOKLYN</button>
-        <button>BRONX</button>
-        <button>QUEENS</button>
-        <button>STATEN ISLAND</button>
-        <button>OTHERS</button>
+  <section class="data-page">
+    <section id="organization-list-section">
+      <div class="table-header">
+        <h2>Organization List</h2>
       </div>
-    </div>
+      <div class="borough-filters">
+        <button class="borough-filters-button" data-borough="ALL">ALL</button>
+        <button class="borough-filters-button" data-borough="MANHATTAN">MANHATTAN</button>
+        <button class="borough-filters-button" data-borough="BROOKLYN">BROOKLYN</button>
+        <button class="borough-filters-button" data-borough="BRONX">BRONX</button>
+        <button class="borough-filters-button" data-borough="QUEENS">QUEENS</button>
+        <button class="borough-filters-button" data-borough="STATEN IS">STATEN ISLAND</button>
+        <button class="borough-filters-button" data-borough="OTHERS">OTHERS</button>
+      </div>
+    </section>
     
     <div class="table-body">
-      <div class="organization-name"></div>
+      <nav class="organization-list"></nav>
       <div class="organization-borough"></div>
     </div>
   </section>
-</div>
 
-  <section class="about-us">
+
+  <section class="about-us" id="about-us">
     <div class="header">
         <div class="title-about-us">
             About Us
@@ -86,24 +88,3 @@
 
   </body>
 </html>
-
-
-<!-- 
-<div class="table-body">
-  <div class="organization-name">
-    <div> name</div>
-    <div> name name name</div>
-    <div> different name</div>
-    <div> another organization</div>
-    <div> this is the organizatio name list</div>
-  </div>
-  <div class="organization-borough">
-    <div> name</div>
-    <div> name name name</div>
-    <div> different name</div>
-    <div> another organization</div>
-    <div> this is the organizatio name list</div>
-  </div>
-</div>
-</section>
-</div> -->

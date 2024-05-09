@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body.pop-up-activated {
+ overflow: hidden;
+}
+
+
+body {
+  margin: 1rem;
+  margin-bottom: 4rem;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #193045;
+}
+  
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
+
+
+
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Arial", sans-serif;
+    padding: 15px;
+    font-size: 36px;
+}
+
+.top-banner {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #C9BCA8;
+    color: #193045;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #193045;
+    text-decoration: none;
+}
+
+#organization_name {
+    font-size: 40px;
+    font-weight: bold;
+    color: #193045;
+    margin: 30px;
+}
+
+.about-us {
+    margin-top: 20px;
+    margin: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #F5F5F0;
+    color: #193045;
+}
+
+.header2 {
+    margin: 20px;
+}
+
+.back-button{
+  margin-left :30px;
+  margin-right :30px;
+}
+
+.back-button button{
+  background-color: #193045;
+  color: #F5F5F0;
+  padding: 10px 10px;
+  border: none;
+  font-size: 15px;
+  border-radius: 7px; 
+  margin-right: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
